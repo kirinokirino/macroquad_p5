@@ -8,7 +8,7 @@ fn main() {
     println!("Hello, world!");
     debug!("this is a debug {}", "message");
     if log_enabled!(Level::Info) {
-        let x = 3 * 4; // expensive computation
+        let x = fastrand::i32(1..20); // expensive computation
         info!("the answer was: {}", x);
     }
 }

@@ -33,6 +33,7 @@ name = "creative"
 version = "0.1.0"
 dependencies = [
  "env_logger",
+ "fastrand",
  "log",
 ]
 
@@ -47,6 +48,15 @@ dependencies = [
  "log",
  "regex",
  "termcolor",
+]
+
+[[package]]
+name = "fastrand"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b394ed3d285a429378d3b384b9eb1285267e7df4b166df24b7a6939a04dc392e"
+dependencies = [
+ "instant",
 ]
 
 [[package]]
@@ -65,6 +75,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "df004cfca50ef23c36850aaaa59ad52cc70d0e90243c3c7737a4dd32dc7a3c4f"
 dependencies = [
  "quick-error",
+]
+
+[[package]]
+name = "instant"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c"
+dependencies = [
+ "cfg-if",
 ]
 
 [[package]]
