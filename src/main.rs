@@ -1,3 +1,5 @@
+#![warn(clippy::pedantic, clippy::nursery, clippy::cargo)]
+
 #[macro_use]
 extern crate log;
 use simple_logger::SimpleLogger;
