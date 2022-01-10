@@ -1,13 +1,16 @@
 [package]
-name = "creative"
+name = "macroquad_p5"
 version = "0.1.0"
+authors = ["kirinokirino <kirinokirino@lunariko.com>"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A macroquad template for creative coding, inspired by p5 / Processing."
+repository = "https://github.com/kirinokirino/macroquad_p5"
+documentation = ""
+homepage = ""
+readme = "README.md"
+license = "gpl"
+keywords = ["game"]
+categories = ["games"]
 
 [dependencies]
-log = "0.4"
-simple_logger = { version = "1.16.0", default_features = false, features = [
-    "colors",
-] }
-fastrand = "1.6.0"
+macroquad = { version = "0.3.13", default-features = false }
